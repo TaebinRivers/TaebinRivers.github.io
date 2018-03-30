@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+    background-color: #00FFFF;
+}
+
+table {
+    position: relative;
+    text-align: center;
+    margin: auto;
+
+}
+
+#inpagetitle {
+    margin-top: 100px;
+}
+
+#recipe_1 {
+    padding-top: 40px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-family: cursive;
+}
+
+.image {
+    border-style: double; border-color: black; border-width: 8px; margin-bottom: 10px;
+}
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+
+#nav_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#nav_bar li {
+    float: left;
+}
+
+#nav_bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav_bar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+
+li, .time, ol {
+    border: 1px solid black;
+    margin: auto;
+    width: 200px;
+}
